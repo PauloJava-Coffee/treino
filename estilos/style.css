@@ -34,10 +34,13 @@ header>p {
     margin-top: 0%;
 }
 
-header>i {
+i#burguer {
 
     color: #ffffff;
 
+}
+i#burguer:hover{
+    cursor: pointer;
 }
 
 menu {

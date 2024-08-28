@@ -31,7 +31,7 @@ header>p {
     text-align: center;
 
     color: white;
-    margin-top: 3%;
+    margin-top: 0%;
 }
 
 header>i {
@@ -39,30 +39,40 @@ header>i {
     color: #ffffff;
 
 }
- menu{
-    /*display: none ;*/
-width: 25vw;
-border-radius: 0px 10px ;
-background-color: red;
+
+menu {
+    display: none ;
+    width: 25vw;
+    background-color: red;
+    margin: 0px;
+
 }
-menu>ul{
+
+menu>ul {
     list-style-type: 'circle';
     list-style-position: inside;
-    margin-left: 40px;
+    margin-left: 0px;
 
 }
 
 menu>ul>li {
-
+    width: 25vw;
+    border-radius: 4px;
     display: block;
-    margin: 0px 13px 7px 6px;
+    margin: 0px 1px 1px 0px;
+    
 
 
 }
 
 menu>ul>li>a {
+
+    display: block;
+    background-color: #3C3D40;
     text-decoration: none;
-    color: rgb(149, 28, 28);
+    color: #ffffff;
+
+    padding: 4px;
 
 
 }
@@ -78,7 +88,7 @@ main {
     height: 100vh;
     width: 92vw;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 0%;
 }
 
 main>section>img {

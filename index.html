@@ -14,13 +14,16 @@
     <header>
         <h1>Whatsapp 2</h1>
         <p>Testando tudo o que aprendi com o professor Guanabara</p>
-        <i class="material-icons" id="burguer">menu</i>
+        <i class="material-icons" id="burguer" onclick="clicou()">menu</i>
     </header>
-    <menu>
+    <menu id="menu">
         <ul>
-            <li>oi</li>
-            <li><a href="">Página inicial</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Noticias</a></li>
             <li><a href="">Início</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Início</a></li>
+
         </ul>
     </menu>
     <main>
@@ -29,7 +32,7 @@
             <p>
                 NA IMAGEM ABAIXO PODEMOS VISUALIZAR UMA COISINHA LINDA
             </p>
-           
+
             <img src="img/boxter.jpg" alt="Boxter">
         </section>
 
@@ -38,6 +41,17 @@
     <footer>
 
     </footer>
+    <script>
+        function clicou() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none';
+            }
+            else {
+                menu.style.display = 'block';
+            }
+        }
+
+    </script>
 
 </body>
 

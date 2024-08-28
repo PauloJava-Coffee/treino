@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --cor1: #8C8C88;
-    --cor2: #666A73;
-    --cor3: #D7D7D9;
+    --cor1: #000000;
+    --cor2: #ffffff;
     --cor4: #3C3D40;
 
 }
@@ -15,23 +14,80 @@
 
 header {
     background-color: var(--cor4);
-    height: 12vh;
-    text-align: center;
+    height: auto;
+
+
+
 }
 
-header > h1{
+header>h1 {
+    text-align: center;
+
     padding: 3px;
     color: white;
 }
 
-header > p{
+header>p {
+    text-align: center;
+
     color: white;
     margin-top: 3%;
 }
-main{
+
+header>i {
+
+    color: #ffffff;
+
+}
+ menu{
+    /*display: none ;*/
+width: 25vw;
+border-radius: 0px 10px ;
+background-color: red;
+}
+menu>ul{
+    list-style-type: 'circle';
+    list-style-position: inside;
+    margin-left: 40px;
+
+}
+
+menu>ul>li {
+
+    display: block;
+    margin: 0px 13px 7px 6px;
+
+
+}
+
+menu>ul>li>a {
+    text-decoration: none;
+    color: rgb(149, 28, 28);
+
+
+}
+
+menu>ul>li>a:hover {
+    text-decoration: underline;
+
+
+}
+
+
+main {
     height: 100vh;
-    width: 80vw;
-    background-color: #8C8C88;
+    width: 92vw;
     margin: auto;
     margin-top: 2%;
+}
+
+main>section>img {
+
+    margin-left: 30px;
+
+    width: 75vw;
+    height: 300px;
+
+    border-radius: 3px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.307);
 }

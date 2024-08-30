@@ -118,3 +118,7 @@ main>section>img {
     border-radius: 3px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.307);
 }
+section#lista > ol,ul {
+    margin-left: 7%;
+    padding: 5% 0%;
+}

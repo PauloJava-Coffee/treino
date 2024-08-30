@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-image: linear-gradient(to right, #011F26, #024655);
+    background-attachment: fixed;
+    height: auto;
+    width: 100vw;
+    color: white;
+
+}
+
+header>h1 {
+    text-align: center;
+    
+}
+
+header > a{
+    color: white;
+    text-decoration: none;
+}
+header > a::after{
+     content: 'VOLTAR';
+}
+
+main > section#form{
+    display: block;
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 130px;
+    width: 400px
+}
+/*main > section#form > input,label{
+    display: block;
+} */
+div.input{
+ margin-top: 5%;
+
+}
+
+

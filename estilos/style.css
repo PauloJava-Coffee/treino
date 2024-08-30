@@ -52,7 +52,7 @@ i#burguer:hover {
 menu {
     display: none;
     width: 25vw;
-    background-color: red;
+    background-color: white;
     margin: 0px;
 
 }
@@ -77,7 +77,7 @@ menu>ul>li {
 menu>ul>li>a {
 
     display: block;
-    background-color: #3C3D40;
+    background-image: url('../img/foto.jpg');
     text-decoration: none;
     color: #ffffff;
 
@@ -99,10 +99,18 @@ main {
     margin: auto;
     margin-top: 0%;
 }
+main > section > h2{
+    text-align: center;
+    margin: 4% 0% 4% 0%
+}
+
+main > section > p{
+    margin-bottom: 4%;
+}
 
 main>section>img {
 
-    margin-left: 30px;
+    
 
     width: 75vw;
     height: 300px;

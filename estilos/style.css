@@ -15,7 +15,10 @@
 }
 
 header {
-    background-color: var(--cor4);
+    background-image: url('../img/backheader.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: auto;
 
 

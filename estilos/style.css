@@ -15,11 +15,10 @@
 }
 
 header {
-    background-image: url('../img/backheader.jpg');
+    background-image: linear-gradient(to right, #011F26, #024655);
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: contain;
     height: auto;
+    width: 100vw;
 
 
 
@@ -94,7 +93,7 @@ menu>ul>li>a:hover {
 
 
 main {
-    height: 100vh;
+    height: auto;
     width: 92vw;
     margin: auto;
     margin-top: 0%;
@@ -110,11 +109,8 @@ main>section>p {
 }
 
 main>section>img {
-
-
-
-    width: 75vw;
-    height: 300px;
+    width: 65vw;
+   
 
     border-radius: 3px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.307);
@@ -126,30 +122,41 @@ ul {
     padding: 5% 0%;
 }
 
-main >  section > div#humilho {
+main>section>div#humilho {
     position: relative;
     display: block;
-    width: 60vw;
+    width: 60%;
     height: 30vh;
     background-image: url('../img/maracana.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.307);
 }
 
 main>section>div#humilho>a {
-    position:  absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     text-decoration: none;
-    font-size:1.6em;
+    font-size: 1.6em;
     text-shadow: 2px 1px black;
 
     color: #ffffff;
 
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%, -50%);
+
 }
 
 main>section>div#humilho>a:hover {
     text-decoration: underline;
+}
+
+footer {
+    height: 60px;
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    display: block;
+    color: white;
+    font-size: .8em;
 }

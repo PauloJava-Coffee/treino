@@ -29,17 +29,31 @@ header > a::after{
 
 main > section#form{
     display: block;
-    margin-top: 20px;
+    margin: 20px 0px 0px 5%;
     border: 1px solid black;
-    height: 130px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.111);
+    border-radius: 10px;
+    height: 110px;
     width: 400px
 }
 /*main > section#form > input,label{
     display: block;
 } */
-div.input{
- margin-top: 5%;
+ div.input{
+ margin: 5%;
 
+}
+
+div#entrar > input{
+    margin: 10px 0px 0px 67%;
+    height: 30px;
+    width: 85px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #011F26;
+}
+div#entrar > input:hover{
+    cursor: pointer;
 }
 
 

@@ -153,10 +153,14 @@ main>section>div#humilho>a:hover {
 }
 
 footer {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 1px dashed black;
     height: 60px;
+    width: 100%;
     margin-top: 5%;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    background-color: white;
     display: block;
-    color: white;
-    font-size: .8em;
+    color: rgb(99, 99, 99);
+    font-size: 1em;
 }

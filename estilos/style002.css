@@ -16,35 +16,52 @@ header {
 
 header>h1 {
     text-align: center;
-    
+
 }
 
-header > a{
+header>a {
     color: white;
     text-decoration: none;
 }
-header > a::after{
-     content: 'VOLTAR';
+
+header>a::after {
+    content: 'VOLTAR';
 }
 
-main > section#form{
+main>section#form {
     display: block;
     margin: 20px 0px 0px 5%;
     border: 1px solid black;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.111);
     border-radius: 10px;
-    height: 110px;
-    width: 400px
+    height: 15vh;
+    width: 400px;
+
+    background-image: url('../img/fundo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-/*main > section#form > input,label{
-    display: block;
-} */
- div.input{
- margin: 5%;
+
+main>section#form,
+input {
+    background-color: transparent;
 
 }
 
-div#entrar > input{
+
+
+div.input {
+    margin: 5%;
+
+}
+
+div.input,
+label {
+    color: gray;
+
+}
+
+div#entrar>input {
     margin: 10px 0px 0px 67%;
     height: 30px;
     width: 85px;
@@ -52,8 +69,7 @@ div#entrar > input{
     color: aliceblue;
     background-color: #011F26;
 }
-div#entrar > input:hover{
+
+div#entrar>input:hover {
     cursor: pointer;
 }
-
-

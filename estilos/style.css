@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*  Mobile first */
 :root {
     --cor1: #000000;
     --cor2: #ffffff;
@@ -151,6 +151,11 @@ main>section>div#humilho>a {
 main>section>div#humilho>a:hover {
     text-decoration: underline;
 }
+section#pag2 > p > a {
+    text-decoration: none;
+}
+
+
 
 footer {
 
@@ -159,8 +164,15 @@ footer {
     height: 60px;
     width: 100%;
     margin-top: 5%;
-    background-color: white;
+    background-color: black;
     display: block;
-    color: rgb(99, 99, 99);
-    font-size: 1em;
+    
+}
+footer > p{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.377);
+    font-weight: bolder;
+    font-size: .8em;
+    text-align: right;
+    margin: 9% 1% 0px 0px;
 }

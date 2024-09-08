@@ -10,21 +10,60 @@ TELAS GRANDES: MAIOR QUE 1200PX WIDTH
 */
 
 /*Tablete*/
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
-     i#burguer{
+
+    i#burguer {
         display: none;
     }
-    menu{
-        display: inline-block;
+
+    menu {
+        top: -29%;
+        position: relative;
+        display: block;
+        height: 40%;
+        width: 100%;
+        background-color: transparent;
     }
+
+    menu>ul {
+        display: block;
+        height: auto;
+        margin-left: 3px;
+        
+
+
+    }
+
+    menu>ul>li {
+        width: auto;
+        position: relative;
+        border-radius: 10px;
+        display: inline-block;
+    
+
+
+
+    }
+
+    menu>ul>li>a {
+
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin: 0%;
+
+        padding: 3px;
+
+
+    }
+
 }
 
 /*Desktop */
-@media screen and (min-width: 992px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
-    i#burguer{
+    i#burguer {
         display: none;
     }
 }
-

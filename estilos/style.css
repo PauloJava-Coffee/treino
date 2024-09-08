@@ -78,7 +78,7 @@ menu>ul>li>a {
     display: block;
     background-image: url('../img/foto.jpg');
     text-decoration: none;
-    color: #ffffff;
+    color: #d41818;
 
     padding: 4px;
 
@@ -101,18 +101,18 @@ main {
 
 main>section>h2 {
     text-align: center;
-    margin: 4% 0% 4% 0%
+    margin: 4% 0% 4% 0%;
 }
 
 main>section>p {
     margin-bottom: 4%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main>section>img {
     width: 60vw;
    
-
-    border-radius: 311px;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.307);
 }
 
@@ -122,39 +122,24 @@ ul {
     padding: 5% 0%;
 }
 
-main>section>div#humilho {
-    position: relative;
-    display: block;
-    width: 60%;
-    height: 30vh;
-    background-image: url('../img/maracana.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.307);
-}
 
-main>section>div#humilho>a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+
+ section#link > p > a {
+ 
     text-decoration: none;
-    font-size: 1.6em;
-    text-shadow: 2px 1px black;
-
-    color: #ffffff;
-
-    transform: translate(-50%, -50%);
+    
 
 }
 
-main>section>div#humilho>a:hover {
+main > section#link > p > a:hover {
     text-decoration: underline;
 }
 section#pag2 > p > a {
     text-decoration: none;
 }
-
+section#pag2 > p > a:hover {
+    text-decoration: underline;
+}
 
 
 footer {

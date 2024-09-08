@@ -7,6 +7,7 @@
     <title>Whatsapp</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
@@ -15,16 +16,18 @@
         <h1>Whatsapp 2</h1>
         <p>Testando tudo o que aprendi com o professor Guanabara</p>
         <i class="material-icons" id="burguer" onclick="clicou()">menu</i>
+        
+        <menu id="menu">
+            <ul>
+                <li><a href="">Home &#x1f3e0;</a></li>
+                <li><a href="">Noticias &#x1f4f0;</a></li>
+                <li><a href="">Loja &#x1f6cd;</a></li>
+                <li><a href="">Sobre &#x2129;</a></li>
+
+            </ul>
+        </menu>
     </header>
-    <menu id="menu">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Noticias</a></li>
-            <li><a href="">Loja</a></li>
-            <li><a href="">Sobre</a></li>
-            
-        </ul>
-    </menu>
+
     <main>
         <section>
             <h2>EXEMPLO DE IMAGEM</h2>
@@ -39,8 +42,8 @@
             <h2>AUDIO</h2>
             <P>
                 TAMBÉM PODEMOS COLOCAR AUDIO UTILIZANDO HTML
-                USAMOS A TAG "AUDIO", PASSAMOS A URL E UTILIZAMOS O PARÂMETRO]
-                "CONTROLS" PARA ATIVAR OS CONTROLES DE PLAY/PAUSE E VALUME. <br>
+                USAMOS A TAG "AUDIO", PASSAMOS A URL E UTILIZAMOS O PARÂMETRO"CONTROLS" PARA ATIVAR OS CONTROLES DE
+                PLAY/PAUSE E VALUME. <br>
                 &#x1f437;
 
             </P>
@@ -65,15 +68,15 @@
         <section id="link">
             <h2>Links/Âncoras</h2>
             <p>
-             TAMBÉM É MUITO FÁCIL COLOCAR LINKS NOS SITES , USAMOS A TAG "a",
-             PASSAMOS A URL E DEFINIMOS SE O LINK SE REFERE A OUTRO OU AO MESMO
-             SITE COM O PARÂMETRO "TARGET". <br> <br>
-             CLIQUE 
-            <a href="https://youtu.be/35vzuFPybVg?si=3ZsNA0HHAvH2C1OA" target="_blank">  AQUI  </a>
-            PARA CONFERIRUM VÍDEO MUITO GOSTOSO
+                TAMBÉM É MUITO FÁCIL COLOCAR LINKS NOS SITES , USAMOS A TAG "a",
+                PASSAMOS A URL E DEFINIMOS SE O LINK SE REFERE A OUTRO OU AO MESMO
+                SITE COM O PARÂMETRO "TARGET". <br> <br>
+                CLIQUE
+                <a href="https://youtu.be/35vzuFPybVg?si=3ZsNA0HHAvH2C1OA" target="_blank"> AQUI </a>
+                PARA CONFERIRUM VÍDEO MUITO GOSTOSO
             </p>
         </section>
-        
+
         <section id="pag2">
             <h2>Segunda página</h2>
             <p>
@@ -93,11 +96,11 @@
     </footer>
     <script>
         function clicou() {
-            if (menu.style.display == 'block') {
+            if (menu.style.display == 'inline-block') {
                 menu.style.display = 'none';
             }
             else {
-                menu.style.display = 'block';
+                menu.style.display = 'inline-block';
             }
         }
 

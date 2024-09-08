@@ -1,0 +1,30 @@
+@charset " UTF-8";
+
+/*
+
+CELULAR: MENOR QUE 768PX WIDTH
+TABLETE: 768PX À 992PX WIDTH
+DESKTOP: 992PX À 1200PX WIDHT
+TELAS GRANDES: MAIOR QUE 1200PX WIDTH
+
+*/
+
+/*Tablete*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+     i#burguer{
+        display: none;
+    }
+    menu{
+        display: inline-block;
+    }
+}
+
+/*Desktop */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+    i#burguer{
+        display: none;
+    }
+}
+

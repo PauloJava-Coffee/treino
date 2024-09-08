@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /*  Mobile first */
+
+@media all {
+    
 :root {
     --cor1: #000000;
     --cor2: #ffffff;
@@ -15,19 +18,17 @@
 }
 
 header {
-    background-image: linear-gradient(to right, #011F26, #024655);
+    background-color: #000000;
     background-attachment: fixed;
-    height: auto;
+    height: 15vh;
     width: 100vw;
-
 
 
 }
 
 header>h1 {
     text-align: center;
-
-    padding: 3px;
+    padding: 17px;
     color: white;
 }
 
@@ -39,9 +40,10 @@ header>p {
 }
 
 i#burguer {
-
+    margin-top: 17px;
     color: #ffffff;
-
+    display: block;
+    
 }
 
 i#burguer:hover {
@@ -51,8 +53,13 @@ i#burguer:hover {
 menu {
     display: none;
     width: 25vw;
-    background-color: white;
-    margin: 0px;
+    top: 15.4%;
+    border-radius: 0px 0px 12px 0px;
+
+    background-color: #000000;
+    backface-visibility: hidden ;
+    position: absolute;
+   
 
 }
 
@@ -60,14 +67,16 @@ menu>ul {
     list-style-type: 'circle';
     list-style-position: inside;
     margin-left: 0px;
+    
 
 }
 
 menu>ul>li {
-    width: 25vw;
-    border-radius: 4px;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #0b0b0b;
     display: block;
-    margin: 0px 1px 1px 0px;
+    margin: 0px 0px 3px 0px;
 
 
 
@@ -78,15 +87,10 @@ menu>ul>li>a {
     display: block;
     background-image: url('../img/foto.jpg');
     text-decoration: none;
-    color: #d41818;
+    color: white;
+    margin: 0%;
 
     padding: 4px;
-
-
-}
-
-menu>ul>li>a:hover {
-    text-decoration: underline;
 
 
 }
@@ -160,4 +164,5 @@ footer > p{
     font-size: .8em;
     text-align: right;
     margin: 9% 1% 0px 0px;
+}
 }
